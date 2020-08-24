@@ -1,4 +1,4 @@
-import time
+import requests
 
 print("Here are our languages: \nShakespeare\nYoda\nPirate\nMorse\nBrooklyn\nChef\nVulcan\nKlingon\nPig Latin")
 language = input('\nWhat language to be translated to: ')
