@@ -1,4 +1,3 @@
-import requests
 import time
 
 print("Here are our languages: \nShakespeare\nYoda\nPirate\nMorse\nBrooklyn\nChef\nVulcan\nKlingon\nPig Latin")
@@ -16,4 +15,5 @@ for word in text:
 data = requests.get(url).json()
 
 print(data['contents']['translated'])
-time.sleep(60)
+
+input()
